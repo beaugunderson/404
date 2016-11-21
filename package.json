@@ -4,7 +4,8 @@
   "description": "",
   "main": "404.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo 404.js"
   },
   "author": "Beau Gunderson <beau@beaugunderson.com> (https://beaugunderson.com/)",
   "dependencies": {
@@ -12,5 +13,8 @@
     "jquery": "^3.1.1",
     "lodash": "^4.17.2",
     "matter-js": "^0.11.1"
+  },
+  "devDependencies": {
+    "budo": "^9.2.2"
   }
 }
